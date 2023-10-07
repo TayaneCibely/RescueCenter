@@ -14,6 +14,7 @@
 <body>
 
     <div class="desktop-page">
+
         <section id="menu">
             <div class="left-options-parent">
                 <div class="left-options">
@@ -42,107 +43,173 @@
                     </div>
                 </div>
             </div>
+        </section>
 
-            <div class="divider">
-                <div class="div-wrapper">
-                    <img class="div-icon" src="div.svg" alt="">
+        <div class="divider">
+            <div class="div-wrapper">
+                <img class="div-icon" src="div.svg" alt="">
 
-                </div>
             </div>
-            <div class="main-screen">
-                <div class="main-content">
-                    <div class="info-block">
-                        <div class="text-block">
-                            <h1>Forever Homes Shelter</h1>
-                            <p>
-                                Our mission is to rescue and provide rehabilitation to
-                                to dogs and cats that are critically injured or
-                                neglected. We have already saved the lives of
-                                10,000 animals. We are not just a rescue, we are a
-                                refuge.
-                            </p>
-                        </div>
-                        <div class="cta-block">
-                            <h3>Your Gift Helps Save Lives</h3>
-                            <div class="group-of-buttons">
-                                <div class="donate-button" id="donateButtonContainer">
-                                    <img class="icon-twitter" src="Icon.svg" alt="">
+        </div>
+        <div class="main-screen">
+            <div class="main-content">
+                <div class="info-block">
+                    <div class="text-block">
+                        <h1>Forever Homes Shelter</h1>
+                        <p>
+                            Our mission is to rescue and provide rehabilitation to
+                            to dogs and cats that are critically injured or
+                            neglected. We have already saved the lives of
+                            10,000 animals. We are not just a rescue, we are a
+                            refuge.
+                        </p>
+                    </div>
+                    <div class="cta-block">
+                        <h3>Your Gift Helps Save Lives</h3>
+                        <div class="group-of-buttons">
+                            <div class="donate-button" id="donateButtonContainer">
+                                <img class="icon-twitter" src="Icon.svg" alt="">
 
-                                    <b class="rescue enter">Donate</b>
+                                <b class="rescue enter">Donate</b>
+                            </div>
+                            <div class="adopt-button" id="adoptButtonContainer">
+                                <div class="icon3">
+                                    <img class="shape-icon" src="Shepe.svg" alt="">
                                 </div>
-                                <div class="adopt-button" id="adoptButtonContainer">
-                                    <div class="icon3">
-                                        <img class="shape-icon" src="Shepe.svg" alt="">
-                                    </div>
-                                    <b class="label2">Apply to Adopt</b>
-                                </div>
+                                <b class="label2">Apply to Adopt</b>
                             </div>
                         </div>
                     </div>
-                    <div class="image">
-                        <img class="illustration-icon" src="Illustration.svg" alt="">
+                </div>
+                <div class="image">
+                    <img class="illustration-icon" src="Illustration.svg" alt="">
 
-                    </div>
                 </div>
             </div>
+        </div>
 
         </section>
 
         <section>
-            <div class="stats-block">
-                <div class="main-content1">
-                    <div class="text-information">
-                        <h2>
-                            <p>With your help, w</p>
-                            <p>accomplished these goals</p>
-                        </h2>
-                        <div class="stats">
-                            <div class="animals-rescued>
-                               <b class=" h">1400</b>
-                                <b class="text2">Animals Rescued</b>
+            <div id="donateModalContainer" class="popup-overlay" style="display:none;">
+                <div class="donate-modal">
+                    <b class="h1">Choose your Donate</b>
+                    <div class="form">
+                        <div class="wrap">
+                            <b class="email">
+                                <span>EMAIL</span>
+                                <span class="span">*</span>
+                            </b>
+                            <div class="form1">
+                                <div class="youremail">youremail@here|</div>
                             </div>
-                            <div class="animals-rescued">
-                                <b class="text2">$1.4 Million</b>
-                                <b class="h">Raised</b>
+                            <div class="this-text-shows">This text shows up when an error occurs</div>
+                        </div>
+                        <div class="wrap">
+                            <b class="email">
+                                <span>HOW MUCH CAN YOU HELP?</span>
+                                <span class="span">*</span>
+                            </b>
+                            <div class="button">
+                                <div class="youremail">R$ 95,00</div>
                             </div>
-                            <div class="animals-rescued">
-                                <b class="text2">940</b>
-                                <b class="h">Tails Found a Home</b>
+                            <div class="this-text-shows">This text shows up when an error occurs</div>
+                        </div>
+                        <div class="wrap">
+                            <b class="email">
+                                <span>PAYMENT METHOD</span>
+                                <span class="span">*</span>
+                            </b>
+                            <div class="radios-parent">
+                                <div class="radios">
+                                    <div class="youremail">Pix</div>
+                                    <div class="icon2">
+                                        <img class="check-icon" src="check.svg" alt="">
+
+                                    </div>
+                                </div>
+                                <div class="radios1">
+                                    <div class="youremail">Credit Card</div>
+                                    <div class="icon3">
+                                        <img src="" alt="">
+                                    </div>
+                                </div>
+                                <div class="radios1">
+                                    <div class="youremal">Paypal</div>
+                                    <div class="icon3">
+                                        <img src="" alt="">
+                                    </div>
+                                </div>
                             </div>
+                            <div class="this-text-shows">This a text shows up when an error occurs</div>
+                        </div>
+                        <div class="buttons1" id="popupbuttonsContainer">
+                            <img class="icon5" src="Icon.svg" alt="">
+
+                            <b class="label1"> I wanna Help!</b>
+                        </div>
+                        <div class="buttons2">
+                            <img class="caretleft-icon" src="CaretLeft.svg" alt="">
+
+                            <b class="label1">Cancel</b>
                         </div>
                     </div>
+                </div>
+        </section>
 
-                    <div class="carousel">
-                        <div class="carousel-desktop">
-                            <div class="arrow-left-parent">
-                                <div class="arrow-left">
-                                    <img class="icon" src="Icon.svg" alt="">
+        <section class="stats-block">
+            <div class="main-content1">
+                <div class="text-information">
+                    <h2>
+                        <p>With your help, w</p>
+                        <p>accomplished these goals</p>
+                    </h2>
+                    <div class="stats">
+                        <div class="animals-rescued>
+                               <b class=" h">1400</b>
+                            <b class="text2">Animals Rescued</b>
+                        </div>
+                        <div class="animals-rescued">
+                            <b class="text2">$1.4 Million</b>
+                            <b class="h">Raised</b>
+                        </div>
+                        <div class="animals-rescued">
+                            <b class="text2">940</b>
+                            <b class="h">Tails Found a Home</b>
+                        </div>
+                    </div>
+                </div>
 
-                                </div>
-                                <div class="div">
-                                    <img class="img-1-icon" src="img_1.png" alt="">
-                                </div>
-                                <div class="div1">
-                                    <img class="img-1-icon" src="img_2.png" alt="">
-                                </div>
-                                <div class="div2">
-                                    <img class="img-1-icon" src="img_3.png" alt="">
-                                </div>
-                                <div class="div3">
-                                    <img class="img-1-icon" src="img_4.png" alt="">
-                                </div>
-                                <div class="arrow-right">
-                                    <img class="img-1-icon" src="Icon.svg" alt="">
+                <div class="carousel">
+                    <div class="carousel-desktop">
+                        <div class="arrow-left-parent">
+                            <div class="arrow-left">
+                                <img class="icon" src="Icon.svg" alt="">
 
-                                </div>
                             </div>
-                            <div class="dots">
-                                <div class="ellipse-checked"></div>
-                                <div class="ellipse-2"></div>
-                                <div class="ellipse-2"></div>
-                                <div class="ellipse-2"></div>
-                                <div class="ellipse-2"></div>
+                            <div class="div">
+                                <img class="img-1-icon" src="img_1.png" alt="">
                             </div>
+                            <div class="div1">
+                                <img class="img-1-icon" src="img_2.png" alt="">
+                            </div>
+                            <div class="div2">
+                                <img class="img-1-icon" src="img_3.png" alt="">
+                            </div>
+                            <div class="div3">
+                                <img class="img-1-icon" src="img_4.png" alt="">
+                            </div>
+                            <div class="arrow-right">
+                                <img class="img-1-icon" src="Icon.svg" alt="">
+
+                            </div>
+                        </div>
+                        <div class="dots">
+                            <div class="ellipse-checked"></div>
+                            <div class="ellipse-2"></div>
+                            <div class="ellipse-2"></div>
+                            <div class="ellipse-2"></div>
+                            <div class="ellipse-2"></div>
                         </div>
                     </div>
                 </div>
@@ -262,240 +329,164 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
         </section>
 
-        <div id="donateModalContainer" class="popup-overlay" style="display:none;">
-            <div class="donate-modal">
-                <b class="h1">Choose your Donate</b>
-                <div class="form">
-                    <div class="wrap">
-                        <b class="email">
-                            <span>EMAIL</span>
-                            <span class="span">*</span>
-                        </b>
-                        <div class="form1">
-                            <div class="youremail">youremail@here|</div>
-                        </div>
-                        <div class="this-text-shows">This text shows up when an error occurs</div>
+        <section class="adopt-info-block">
+            <div class="main-content">
+                <div class="h2">
+                    <b class="text"> Adoption information</b>
+                </div>
+                <div class="content-block">
+                    <div class="image">
+                        <img class="illustration-icon" src="Illustration.svg" alt="">
+                    
                     </div>
-                    <div class="wrap">
-                        <b class="email">
-                            <span>HOW MUCH CAN YOU HELP?</span>
-                            <span class="span">*</span>
-                        </b>
-                        <div class="button">
-                            <div class="youremail">R$ 95,00</div>
-                        </div>
-                        <div class="this-text-shows">This text shows up when an error occurs</div>
-                    </div>
-                    <div class="wrap">
-                        <b class="email">
-                            <span>PAYMENT METHOD</span>
-                            <span class="span">*</span>
-                        </b>
-                        <div class="radios-parent">
-                            <div class="radios">
-                                <div class="youremail">Pix</div>
-                                <div class="icon2">
-                                    <img class="check-icon" src="check.svg" alt="">
-
-                                </div>
-                            </div>
-                            <div class="radios1">
-                                <div class="youremail">Credit Card</div>
-                                <div class="icon3">
-                                    <img src="" alt="">
-                                </div>
-                            </div>
-                            <div class="radios1">
-                                <div class="youremal">Paypal</div>
-                                <div class="icon3">
-                                    <img src="" alt="">
-                                </div>
+                    <div class="text-block">
+                        <div class="text1">
+                            <b class="h">Applicants must:</b>
+                            <div class="text2">
+                                <ul class="live-within-a-90-mile-radius-o">
+                                    <li class="live-within-a">Live within a 90 mile radius of our shelter</li>
+                                    <li class="live-within-a">Accept the financial responsibility of vet care and
+                                        pet care
+                                    </li>
+                                    <li class="live-within-a">Donate $400 to adopt their dog/puppy; $125 for a
+                                        cat; $150 for a kitten
+                                    </li>
+                                    <li class="live-within-a">Be over 23 years of age to adopt a dog and 21
+                                        years of age to adopt a cat
+                                    </li>
+                                    <li>Be ready to adopt within 7-10 day</li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="this-text-shows">This a text shows up when an error occurs</div>
-                    </div>
-                    <div class="buttons1" id="popupbuttonsContainer">
-                        <img class="icon5" src="Icon.svg" alt="">
-
-                        <b class="label1"> I wanna Help!</b>
-                    </div>
-                    <div class="buttons2">
-                        <img class="caretleft-icon" src="CaretLeft.svg" alt="">
-
-                        <b class="label1">Cancel</b>
+                        <div class="button" id="buttonContainer">
+                            <b class="label">Apply to Adopt</b>
+                        </div>
                     </div>
                 </div>
             </div>
+        </section>
 
+        <section class="difference- block">
+            <div class="main-content">
+                <div class="h2">
+                    <b class="text">
+                        <p class="how-you-can">How you can make</p>
+                        <p class="how-you-can">a difference</p>
+                    </b>
+                </div>
+                <div class="cards">
+                    <div class="adopt-or-foster">
+                        <div class="text-block-parent">
+                            <div class="text-block">
+                                <b class="h">Adopt or Foster</b>
+                                <p class="text1">Provide a forever or
+                                    temporary home to a homeless animal.
+                                </p>
+                            </div>
+                            <div class="buttons" id="buttonsContainer">
+                                <b class="label">View Adoptables</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="volunteer">
+                        <div class="text-block-parent">
+                            <div class="text-block">
+                                <b class="h">Volunteer</b>
+                                <p class="text1">We are always in need
+                                    of passionate and friendly volunteers.
+                                </p>
+                            </div>
+                            <div class="buttons1">
+                                <b class="label">Get Involved</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="volunteer">
+                        <div class="text-block-parent">
+                            <div class="text-block">
+                                <b class="h">Donate Monthly</b>
+                                <p class="text1">Regular donations is a
+                                    reliable stream of funds to help sustain.
+                                </p>
+                            </div>
+                            <div class="buttons2">
+                                <b class="label">Give Monthly</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="volunteer">
+                        <div class="text-block-parent">
+                            <div class="text-block">
+                                <b class="h">Start a Fundraiser</b>
+                                <p class="text1">Start a fundraiser to
+                                    raise funds and help us continue our mission.
+                                </p>
+                            </div>
+                            <div class="buttons3">
+                                <b class="label">Learn More</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="heart-drawing-right">
+                    <img class="vector-icon" src="Vector.svg" alt="">
+                </div>
+                <div class="heart-drawing-left">
+                    <img class="vector-icon" src="Vector.svg" alt="">
+                </div>
+            </div>
+        </section>
 
+    <section>
+        <div>
+            <h2>Find your best friend today!</h2>
+            <h4>Browse our adorable adoptables</h4>
+            +view Adoptables+ +Applyt to Adopt+
         </div>
 
+    </section>
+    <div>
+        <form action="form-submit" , method="post">
+            <h3>Subscribe to our newsletter</h3>
+            <p>for updates on shelter events, fundraising parties, and heartwarming stories
+                of animals finding their forever homes
+                <input type="email"> +Subscribe+
+            </p>
+        </form>
+
+    </div>
+
+    <footer>
+        <p>image</p>
+        <ul>
+            <li>Adopt a Pet</li>
+            <li>Adoptable Dogs</li>
+            <li>Adoptable Cats</li>
+            <li>Adoptable a Foster</li>
+            <li>Rescue Center</li>
+            <li>Get Involved</li>
+
+            <li>Ways to Donate</li>
+            <li>Upcoming Events</li>
+            <li>Outreach Programs</li>
+            <li>Who We Are</li>
+            <li>Contact Us</li>
+            <li>Shop with Purpose</li>
+
+            <li>PO Box 83644 Middleton, 2452 Wilson</li>
+            <li>631-249-7325</li>
+            <li>pet_home@gmail.com</li>
+            <li>icons</li>
+        </ul>
 
         <hr>
 
-        <section>
-            <h1>Forever Homes Shelter</h1>
-            <p>
-            </p>
-
-            <h4>Your Gift Helps Save Lives</h4>
-
-            +Donate+ +Appley to adopt+
-
-            <ul>
-                <li>Donate</li>
-                <li>Appley to Adopt</li>
-            </ul>
-        </section>
-
-        <section>
-            <h3>With your help, we accomplished these goals</h3>
-            <ul>
-                <li>1400</li>
-                <li>$1.4 Million</li>
-                <li>940</li>
-            </ul>
-        </section>
-
-        <section>
-
-            </li>
-            <li>
-                <h4>Vetting</h4>
-                <p>
-                </p>
-            </li>
-            <li>
-                <h4> Facilities</h4>
-                <p>
-
-                </p>
-            </li>
-            <li>
-                <h4>Transport</h4>
-                <p>
-                </p>
-            </li>
-            <li>
-                <h4>Fosters</h4>
-                <p>
-                </p>
-            </li>
-            <li>
-                <h4>Food</h4>
-                <p>
-
-                </p>
-            </li>
-        </section>
-
-        <section>
-            <h2>Adoption information
-                <h5>Applicanys must:
-                    <ul>
-                        <li>Live within a 90 mile radius of our shelter</li>
-                        <li>Accept the financial responsibility of vet care and
-                            pet care
-                        </li>
-                        <li>Donate $400 to adopt their dog/puppy; $125 for a
-                            cat; $150 for a kitten
-                        </li>
-                        <li>Be over 23 years of age to adopt a dog and 21
-                            years of age to adopt a cat
-                        </li>
-                        <li>Be ready to adopt within 7-10 day</li>
-
-                        botoom here
-                    </ul>
-                </h5>
-            </h2>
-        </section>
-
-        <section>
-            <div>
-                <h2>How you can make a difference</h2>
-                <ul>
-                    <li>
-                        <h6>Adopt or Foster</h6>
-                        <p>Provide a forever or
-                            temporary home to a
-                            homeless animal.
-                            +View Adoptables+
-                        </p>
-                    </li>
-                    <li>
-                        <h6>Volunteer</h6>
-                        <p>We are always in need
-                            of passionate and
-                            friendly volunteers.
-                            +Get Involved+
-                        </p>
-                    </li>
-                    <li>
-                        <h6>Donate Monthly</h6>
-                        <p>Regular donations is a
-                            reliable stream of
-                            funds to help sustain.
-                            +Give Monthly+
-                        </p>
-                    </li>
-                    <li>
-                        <h6>Start a Fundraiser</h6>
-                        <p>Start a fundraiser to
-                            raise funds and help us
-                            continue our mission.
-                            +Learn More-+
-                        </p>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <h2>Find your best friend today!</h2>
-                <h4>Browse our adorable adoptables</h4>
-                +view Adoptables+ +Applyt to Adopt+
-            </div>
-
-        </section>
-        <div>
-            <form action="form-submit" , method="post">
-                <h3>Subscribe to our newsletter</h3>
-                <p>for updates on shelter events, fundraising parties, and heartwarming stories
-                    of animals finding their forever homes
-                    <input type="email"> +Subscribe+
-                </p>
-            </form>
-
-        </div>
-
-        <footer>
-            <p>image</p>
-            <ul>
-                <li>Adopt a Pet</li>
-                <li>Adoptable Dogs</li>
-                <li>Adoptable Cats</li>
-                <li>Adoptable a Foster</li>
-                <li>Rescue Center</li>
-                <li>Get Involved</li>
-
-                <li>Ways to Donate</li>
-                <li>Upcoming Events</li>
-                <li>Outreach Programs</li>
-                <li>Who We Are</li>
-                <li>Contact Us</li>
-                <li>Shop with Purpose</li>
-
-                <li>PO Box 83644 Middleton, 2452 Wilson</li>
-                <li>631-249-7325</li>
-                <li>pet_home@gmail.com</li>
-                <li>icons</li>
-            </ul>
-
-            <hr>
-
-            <h3>We are not just a rescue, we are a refuge</h3>
-        </footer>
+        <h3>We are not just a rescue, we are a refuge</h3>
+    </footer>
     </div>
 </body>
 
