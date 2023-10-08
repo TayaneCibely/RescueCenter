@@ -1,0 +1,252 @@
+.h17 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 120%;
+}
+
+.small-text-description {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.wrap1 {
+  align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.wrap {
+  width: 384px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.span {
+  color: #3f96fc;
+}
+
+.email {
+  position: relative;
+  line-height: 16px;
+}
+
+.form1 {
+  align-self: stretch;
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #937aff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px;
+  font-size: 16px;
+  color: #1e1f27;
+}
+
+.this-text-shows {
+  align-self: stretch;
+  position: relative;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  line-height: 16px;
+  font-weight: 500;
+  color: #d74848;
+  display: none;
+}
+
+.wrap3 {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.form2 {
+  align-self: stretch;
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #3f96fc;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px;
+  font-size: 16px;
+  color: #37383f;
+}
+
+.expand-more-icon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.button1 {
+  flex: 1;
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #3f96fc;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px;
+  gap: 8px;
+}
+
+.button-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 16px;
+  color: #37383f;
+}
+
+.icon13 {
+  border-radius: 99px;
+  background-color: #37383f;
+}
+
+.privacy-policy {
+  color: #ff3d9a;
+}
+
+.i-agree-with-container {
+  position: relative;
+  line-height: 16px;
+  font-weight: 500;
+}
+
+.terms {
+  width: 384px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  font-size: 12px;
+  color: #1e1f27;
+}
+
+.shape-icon1 {
+  position: relative;
+  width: 29.49px;
+  height: 25.5px;
+}
+
+.icon14 {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.i-wanna-adopt {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 24px;
+}
+
+.button4 {
+  flex: 1;
+  border-radius: 8px;
+  background-color: #04c27f;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 24px;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.wrap7 {
+  width: 384px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.caretleft-icon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.button5 {
+  border-radius: 8px;
+  background-color: #37383f;
+  width: 384px;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 24px;
+  box-sizing: border-box;
+  gap: 8px;
+}
+
+.wrap6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  font-size: 18px;
+  color: #f5f5f5;
+}
+
+.wrap2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+  text-align: left;
+  font-size: 12px;
+  color: #ff3d9a;
+}
+
+.adopt-modal {
+  position: relative;
+  border-radius: 32px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  box-sizing: border-box;
+  gap: 48px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  text-align: center;
+  font-size: 48px;
+  color: #1e1f27;
+  font-family: Poppins;
+}
